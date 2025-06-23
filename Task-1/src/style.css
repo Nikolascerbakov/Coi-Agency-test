@@ -113,7 +113,9 @@ section {
   justify-content: center;
   padding: 8px 24px;
   border: solid 1px black;
-  background-color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  
 }
 
 .button__text {
