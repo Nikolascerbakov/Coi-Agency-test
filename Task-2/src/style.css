@@ -52,3 +52,38 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  gap: 32px;
+}
+
+.container__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.frame{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__text-p {
+  text-align: center;
+}
+
+.frame--hidden{
+  display: none;
+}
+
+.button__view-all-recipes {
+  background-color: transparent;
+  border: none
+}
