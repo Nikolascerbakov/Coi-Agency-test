@@ -60,6 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 section {
   display: flex;
   flex-direction: column;
+  margin: 200vh 0vh;
+  opacity: 0;
+  transition: 250ms;
+}
+
+.section--show{
+  opacity: 1;
 }
 
 .image {
@@ -99,11 +106,22 @@ section {
   gap: 16px;
 }
 
-.container__text--h2 {
+.container__text-p--state-hidden {
+   display: none;
+   opacity: 0;
+   animation: fadeOut 1s linear;
+}
+
+.container__text-p--state-visible {
+  display: block;
+  animation: fadeIn 1s linear;
+}
+
+.container__text-h2 {
   text-align: center;
 }
 
-.container__text--p {
+.container__text-p {
   text-align: center;
 }
 
@@ -138,5 +156,15 @@ section {
 
   .container {
     width: clamp(512px, 0.3555555555555556vw, 1920px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    
+  }
+  100% {
+    opacity: 1;
   }
 }
