@@ -126,23 +126,18 @@ section {
   width: 135.11px;
   left: -57.23px;
   top: -20.40px;
-  background-image: url("images/30a9edcdefcf961a7007b00f86cb431c286b8059.png");
   z-index: 2;
 }
 
 .background-image-div {
-   /* width: 226.02px;
-  height: 213.69px;
-    /* Combine transforms into a single transform property */
-  /* transform: scaleX(-1) translate(-54.75px, 192.13px); */
-  /* Position it absolutely within the top-left-corner container */
-  /* position: absolute; */
+   width: 226.02px;
+   height: 213.69px;
+   transform: scaleX(-1) translate(20.75px, -70.13px);
+   position: absolute;
 }
 
 .background-image-topleft {
- 
   z-index: -1;
- 
 }
 
 .background-image-topright {
